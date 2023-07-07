@@ -4,7 +4,7 @@
   "description": "Blog Application for College Review",
   "main": "sever.js",
   "scripts": {
-    "start": "node serevr.js",
+    "start": "node server.js",
     "server": "nodemon server.js",
     "client":"npm start --prefix ./client",
     "dev": "concurrently \"npm start\" \"npm run client\""
